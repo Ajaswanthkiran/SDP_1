@@ -1,0 +1,92 @@
+.bar{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color:white;
+}
+#img1
+{ width:  150px;
+    height: 50px;
+}
+.ulclass.nav_item a, .ulclass li a:hover {
+    color: blue;
+}
+.lists{
+    padding: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.ulclass{
+list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+text-transform: uppercase;
+}
+.nav_item{
+   padding: 5px 20px;
+    display: inline;
+ }
+a, a:visited {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: black;
+}
+.header_search_icon {
+    background-position: 0 -184px;
+    background-position-x: 0px;
+    background-position-y: -184px;
+    width: 17px;
+    height: 16px;
+    cursor: pointer;
+}
+.styles__profile-navigation___3SV-l {
+min-height: 24px;
+     padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #212121;
+    font-size: 14px;
+
+}
+.styles__cart-counter___2nq62
+{
+    display: inline-block;
+    text-align: center;
+    min-width: 80px;
+}
+#log{
+height: 30px;
+width: 30px:
+}
+.login {
+    min-height: 24px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.styles__login-container___nk2No {
+    min-height: 24px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.mar {
+     padding-right: 10px;
+    padding-left: 100px;
+}
+.but
+{
+
+}
+
+

@@ -1,0 +1,20 @@
+.imgg {
+    background-size: cover;
+    width: 70%;
+    height: 90%;
+    order: 2;
+    background-image: url(/static/images/back.png);
+    position: absolute;
+}
+.centres{
+    width: 300px;
+    height: 330px;
+    margin-top: 100px;
+    margin-left:1000px;
+    border-radius:90px;
+
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+    background-color: aliceblue;
+}
