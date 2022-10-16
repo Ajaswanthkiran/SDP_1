@@ -13,10 +13,10 @@
     <a class="nav_link active" aria-current="page" href="http://127.0.0.1:5000"><span>HOME</span></a>
   </li>
   <li class="nav_item">
-    <a class="nav_link" href="http://127.0.0.1:5000/labtest"><span>LAB TEST</span></a>
+    <a class="nav_link" href="http://127.0.0.1:5000/login"><span>LAB TEST</span></a>
   </li>
   <li class="nav_item">
-    <a class="nav_link" href="http://127.0.0.1:5000/medi"><span>Medicines</span></a>
+    <a class="nav_link" href="#"><span>Medicines</span></a>
   </li>
   <li class="nav_item">
     <a class="nav_link">Wellbeing</a>
@@ -33,9 +33,7 @@
   </form>
   </div></div>
   <div class="styles__profile-navigation___3SV-l">
-<div class="login">
-  <a class="styles__login-link___2PwqA" href="http://127.0.0.1:5000/signup"><span>Login</span></a><span class="styles__seprator___1JeJP"> | </span>
-  <a class="styles__login-link___2PwqA" data-auto-signup="true" href="http://127.0.0.1:5000/login"><span>Sign Up</span></a>
+<div class="login" >{{ email }}
   <img src="{{url_for('static',filename='images/login.png')}}" id="log">
   </div>
   <div class="styles__cart-counter___2nq62">

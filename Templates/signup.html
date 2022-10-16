@@ -4,54 +4,28 @@
 </head>
 
 <body>
-{% include 'nav_bar.html' %}
-{% block content %}
+
 <div class="hero">
     <div class="form-box">
         <div class="button-box">
             <div id="btn"></div>
             <button type="button" class="toggle-btn" onclick="login()" >Log in</button>
-            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+
         </div>
 
-        <form id="login" class="input-group">
-            <input type="email" class="input-field" placeholder="user-email" required><br>
+        <form id="login" class="input-group"  action="http://127.0.0.1:5000/con"  method="POST">
+            <input type="email" class="input-field" placeholder="user-email" required name="email"><br>
             <br>
-            <input type="text" class="input-field" placeholder="password" required><br>
-            <input type="checkbox" class="check-box"  >Remember password <br>
-            <button type="submit" class="submit-btn">Log in</button>
+            <input type="text" class="input-field" placeholder="password" required name="passw" ><br>
+           <br>
+<!--            <button type="s" class="submit-btn" >Log in</button>-->
+            <input type="submit">
         </form>
 
-        <form id="register" class="input-group">
-            <input type="email" class="input-field" placeholder="user-email" required><br>
-            <br>
-            <input type="text" class="input-field" placeholder="name" required><br>
-            <br>
-
-            <input type="text" class="input-field" placeholder="password" required><br>
-            <input type="checkbox" class="check-box"  >Remember password <br>
-            <button type="submit" class="submit-btn">Register</button>
-        </form>
     </div>
 </div>
-<script>
-    var x=document.getElementById('login');
-    var y=document.getElementById('register');
 
 
-    function register(){
-        x.style.left="-400px";
-        y.style.left="50px";
-
-    }
-
-    function login(){
-        x.style.left="50px";
-        y.style.left="450px";
-
-    }
-</script>
-{% endblock %}
 </body>
 
 </html>
